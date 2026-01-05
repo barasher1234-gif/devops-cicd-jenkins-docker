@@ -32,25 +32,9 @@ The pipeline builds a Docker image and deploys a containerized Python (Flask) ap
 
 
 
-\## How to Run
+\## Pipeline as Code
 
-1\. Run Jenkins in Docker (local setup)
-
-2\. Create a Jenkins Pipeline job
-
-3\. Paste the Pipeline script (or use Jenkinsfile)
-
-4\. Click \*\*Build Now\*\*
-
-5\. Open: http://localhost:5000
-
-
-
-\## Notes
-
-\- Jenkins was run as root in this local Docker Desktop environment to access Docker socket.
-
-\- In production, a more secure setup would be used (dedicated permissions / remote daemon).
+The CI/CD pipeline is defined using a \*\*Jenk\*\*
 
 
 
